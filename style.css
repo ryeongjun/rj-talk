@@ -1,0 +1,23 @@
+/* body default font */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap");
+
+@import "reset.css";
+@import "variable.css";
+
+/* component styles */
+@import "components/status-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+
+/* screen styles */
+@import "screens/friends.css";
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #2e363e;
+}
+
+/* 모든 main tag(화면)에 padding 0px 25px 적용 */
+.main-screen {
+  padding: 0px 25px;
+}
