@@ -1,0 +1,18 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  color: var(--main-color);
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.screen-header__title {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+/* icon 생성 시 span 주고 span 에 margin 을 주는 방식으로 간격 조정 */
+.screen-header__icons span {
+  margin-left: 25px;
+}
