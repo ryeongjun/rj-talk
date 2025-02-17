@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to ryeongjun talk</title>
+  </head>
+  <body id="welcome-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>23:30</span>
+      </div>
+      <div class="status-bar__column">
+        <div class="punch-hole"></div>
+      </div>
+      <div class="status-bar__column">
+        <i class="fa-solid fa-signal fa-lg"></i>
+        <span>5G</span>
+        <i class="fa-solid fa-battery-full fa-2x"></i>
+      </div>
+    </div>
+    <header class="welcome-header">
+      <i class="fa-solid fa-comment fa-3x"></i>
+    </header>
+    <form action="friends.html" class="login-form">
+      <input
+        class="login-form__input-username"
+        name="username"
+        required
+        type="text"
+        placeholder="Email or phone number"
+      />
+      <input
+        class="login-form__input-password"
+        name="password"
+        required
+        type="password"
+        placeholder="Password"
+      />
+      <input class="login-form__input-submit" type="submit" value="Log In" />
+      <span>Or</span>
+      <input
+        class="login-form__input-submit"
+        type="submit"
+        value="QR Code Log In"
+      />
+      <a href="#">Find your Account or Password</a>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/3af4690456.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
