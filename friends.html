@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Friends - Chat</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <div class="status-bar">
@@ -39,14 +39,36 @@
         <div class="user-component__column">
           <img
             src="https://avatars.githubusercontent.com/u/143333762?v=4"
-            class="user-component__avatar"
+            class="user-component__avatar user-component__avatar--l"
           />
-        </div>
-        <div class="user-component__column">
-          <h4 class="user-component__text">Hyeongjun</h4>
-          <!-- <h6 class="user-component__subtitle">this is a subtitle</h6> -->
+          <div class="user-component__text">
+            <h4 class="user-component__title">Hyeongjun</h4>
+            <!-- <h6 class="user-component__subtitle">this is a subtitle</h6> -->
+          </div>
         </div>
         <div class="user-component__column"></div>
+      </div>
+      <div class="friends-screen__channel">
+        <div class="friends-screen__channel-header">
+          <span>Channel</span><i class="fa-solid fa-chevron-up fa-xs"></i>
+        </div>
+
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://avatars.githubusercontent.com/u/143333762?v=4"
+              class="user-component__avatar user-component__avatar--m"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Hyeongjun</h4>
+              <!-- <h6 class="user-component__subtitle">this is a subtitle</h6> -->
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span>2</span>
+            <i class="fa-solid fa-chevron-right fa-xs"></i>
+          </div>
+        </div>
       </div>
     </main>
   </body>
