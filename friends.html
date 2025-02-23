@@ -50,28 +50,57 @@
       </div>
       <div class="friends-screen__channel">
         <div class="friends-screen__channel-header">
-          <span>Channel</span><i class="fa-solid fa-chevron-up fa-xs"></i>
+          <span>Friends</span><span>3</span>
         </div>
 
         <div class="user-component">
           <div class="user-component__column">
             <img
-              src="https://avatars.githubusercontent.com/u/143333762?v=4"
+              src="https://i.namu.wiki/i/JqXkB47VuslQ36F04iAh2FowCOUw9XeTsO0SrvETGDWxr4CzGAX20Gvm8AL0C1-xhY6q10Uuz1UUFTLvkGCuMfsd9LHxM4fW_lc45M-2L_P3o4PbQLsKqI67-08C59HwqTj3vOemIrgNP5SEzM4ZJA.webp"
               class="user-component__avatar user-component__avatar--s"
             />
             <div class="user-component__text">
               <h4 class="user-component__title user-component__title--s">
-                ryeongjun
+                Ron Weasley
               </h4>
-              <!-- <h6 class="user-component__subtitle">this is a subtitle</h6> -->
+              <h6 class="user-component__subtitle">
+                I went to bed at 1 AM because...
+              </h6>
             </div>
           </div>
+          <div class="user-component__column"></div>
+        </div>
+        <div class="user-component">
           <div class="user-component__column">
-            <div>
-              <span>2</span>
-              <i class="fa-solid fa-chevron-right fa-xs"></i>
+            <img
+              src="https://i.namu.wiki/i/dgskYJzCeRVrbywCXsknNXRbbgJWwuUIjpli_Rh9w5CnvyKeSbp2aNTtWkYLTk4qdMwv2oyO_OF9wCVUV-fPt37GqbnDE4c1mTdkQF4QETMUd2sO4lDeEi6Vnw1RMvCr_t0KR-uRtJPSnkuIHeXoaA.webp"
+              class="user-component__avatar user-component__avatar--s"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--s">
+                Severus Snape
+              </h4>
+              <h6 class="user-component__subtitle">Always.</h6>
             </div>
           </div>
+          <div class="user-component__column"></div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://i.namu.wiki/i/9gVXScHTM4pG-87TIxwxYcX79Mbu5pEjgm8qXHI7Z-NyRkl8T5u1eELL6TV3imij9gTrScLl3_9ybYaMjxL458yr_3r1Y6ZipR1EQD_PMk93xc6FsUMA-uYAJf-Ow04cJPIdWv1EcQcEgTC-fX3IfA.webp"
+              class="user-component__avatar user-component__avatar--s"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--s">
+                Dobby
+              </h4>
+              <h6 class="user-component__subtitle">
+                Dobby is free... but bored :(
+              </h6>
+            </div>
+          </div>
+          <div class="user-component__column"></div>
         </div>
       </div>
     </main>
@@ -81,7 +110,10 @@
           <a href="friends.html"><i class="fa-solid fa-user fa-2x"></i></a>
         </li>
         <li class="nav__btn">
-          <a href="chats.html"><i class="fa-regular fa-comment fa-2x"></i></a>
+          <a href="chats.html"
+            ><i class="fa-regular fa-comment fa-2x"></i>
+            <span class="badge-alert">1</span></a
+          >
         </li>
         <li class="nav__btn">
           <a href="find.html"
@@ -90,9 +122,17 @@
         </li>
         <li class="nav__btn">
           <a href="more.html"><i class="fa-solid fa-ellipsis fa-2x"></i></a>
+          <div class="badge-more"></div>
         </li>
       </ul>
     </nav>
+    <div id="splash-screen">
+      <i class="fa-solid fa-comment"></i>
+    </div>
+    <div id="no-mobile">
+      <span>Your screen is too big :(</span>
+      <span>Please reduce the width to 600px or less.</span>
+    </div>
   </body>
   <script
     src="https://kit.fontawesome.com/3af4690456.js"
