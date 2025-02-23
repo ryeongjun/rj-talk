@@ -1,0 +1,27 @@
+.pay-component {
+  margin-bottom: 30px;
+  background-color: var(--pink);
+  padding: 20px 20px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pay-component__column:first-child span {
+  margin-left: 5px;
+  font-weight: 600;
+}
+
+.pay-component__column {
+  display: flex;
+}
+
+.fa-barcode {
+  margin-right: 5px;
+}
+
+.more-screen__suggestion {
+  border-top: var(--border);
+  padding: 20px 0px;
+  margin-bottom: 10px;
+}
