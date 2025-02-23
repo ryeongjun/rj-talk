@@ -1,4 +1,4 @@
-.badge {
+.badge-alert {
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -9,4 +9,27 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.badge-gift {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 20px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  border: 2.5px solid;
+  border-color: tomato;
+  color: #2e363e;
+  font-weight: 600;
+}
+.badge-gift__text {
+  font-size: 12px;
+  margin-left: 5px;
+}
+.badge-more {
+  width: 8px;
+  height: 8px;
+  background-color: tomato;
+  border-radius: 50%;
 }
