@@ -1,0 +1,20 @@
+.icon-component {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.icon-component__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-component__column i {
+  font-size: 35px;
+  margin-bottom: 18px;
+}
+
+.icon-component--s i {
+  font-size: 28px;
+}
