@@ -12,6 +12,7 @@
 @import "components/badge.css";
 @import "components/icon-component.css";
 @import "components/no-mobile.css";
+@import "components/alt-screen-header.css";
 
 /* screen styles */
 @import "screens/friends.css";
