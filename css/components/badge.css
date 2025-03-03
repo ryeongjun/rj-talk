@@ -33,3 +33,16 @@
   background-color: tomato;
   border-radius: 50%;
 }
+
+.badge-manage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 20px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  border: 2.5px solid;
+  color: #2e363e;
+  font-weight: 600;
+}
