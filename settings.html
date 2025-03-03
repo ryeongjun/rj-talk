@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Settings - rjtalk</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>23:30</span>
+      </div>
+      <div class="status-bar__column">
+        <div class="punch-hole"></div>
+      </div>
+      <div class="status-bar__column">
+        <i class="fa-solid fa-signal fa-lg"></i>
+        <span>5G</span>
+        <i class="fa-solid fa-battery-full fa-2x"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="more.html"><i class="fa-solid fa-angle-left fa-2x"></i></a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Settings</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen setting-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="https://avatars.githubusercontent.com/u/143333762?v=4"
+            class="user-component__avatar user-component__avatar--l"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">ryeongjun</h4>
+            <h6 class="user-component__subtitle">+82 10-0000-0000</h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <div class="badge-manage">Manage</div>
+        </div>
+      </div>
+      <ul class="settings-list">
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fa-solid fa-user-secret"></i>
+            <span>Account</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fa-solid fa-lock"></i>
+            <span>Security</span>
+            <div class="badge-alert">N</div>
+          </div>
+
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fa-solid fa-user"></i>
+            <span>Friends</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fa-solid fa-bell"></i>
+            <span>Notification</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+      </ul>
+    </main>
+
+    <div id="no-mobile">
+      <span>Your screen is too big :(</span>
+      <span>Please reduce the width to 600px or less.</span>
+    </div>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/3af4690456.js"
+    crossorigin="anonymous"
+  ></script>
+</html>
