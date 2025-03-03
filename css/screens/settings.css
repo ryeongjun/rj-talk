@@ -1,0 +1,19 @@
+.settings__setting {
+  font-size: 22px;
+  border-bottom: var(--border);
+  padding: 25px 0px;
+  opacity: 0.9;
+}
+
+.settings__setting-column {
+  display: flex;
+  align-items: center;
+}
+
+.settings__setting-column span {
+  margin-left: 20px;
+}
+
+.settings__setting-column .badge-alert {
+  margin-left: 5px;
+}
