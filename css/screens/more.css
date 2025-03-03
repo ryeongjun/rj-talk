@@ -29,3 +29,19 @@
 .more-screen .icon-component {
   padding: 0px 15px;
 }
+
+@keyframes gearColorChange {
+  0% {
+    color: inherit;
+  }
+  50% {
+    color: var(--pink);
+  }
+  100% {
+    color: inherit;
+  }
+}
+
+.more-header .fa-gear {
+  animation: gearColorChange 2s infinite;
+}
